@@ -339,7 +339,7 @@ export default function SetupWizard({ onReady }) {
                   className="m-0 font-serif text-[clamp(1.6rem,3vw,2.2rem)] font-semibold leading-tight tracking-tight"
                   data-tauri-drag-region
                 >
-                  VoiceStudio
+                  Tatva Voice Studio
                 </h1>
                 {/* Same identity mark as the install splash footer. */}
                 <span

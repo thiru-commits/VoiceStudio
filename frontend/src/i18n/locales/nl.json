@@ -360,7 +360,7 @@
     "reduce_motion_desc": "Stopt achtergrondanimaties en overgangen. Je systeeminstelling blijft op zichzelf gelden; dit komt daarbij."
   },
   "bootstrap": {
-    "title": "VoiceStudio",
+    "title": "Tatva Voice Studio",
     "checking": "Omgeving controleren…",
     "downloading_uv": "uv (Python pakketbeheerder) downloaden…",
     "creating_venv": "Python virtuele omgeving maken…",

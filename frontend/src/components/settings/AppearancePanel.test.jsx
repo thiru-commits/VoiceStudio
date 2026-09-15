@@ -92,7 +92,7 @@ describe('AppearancePanel — WAI-ARIA radio-group keyboard pattern', () => {
 
   it('arrow keys move the theme-dot selection too', () => {
     render(<AppearancePanel />);
-    const gruvbox = screen.getByRole('radio', { name: 'Gruvbox' });
+    const gruvbox = screen.getByRole('radio', { name: 'Tatva' });
     gruvbox.focus();
     fireEvent.keyDown(gruvbox, { key: 'ArrowDown' });
     expect(useAppStore.getState().theme).toBe('midnight');

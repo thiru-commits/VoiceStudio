@@ -2036,7 +2036,7 @@
     "dictation_lede_hotkey_only": "Hold the shortcut above anywhere on your desktop, speak, release — the text lands in whatever app has focus. Press it now to verify it works."
   },
   "bootstrap": {
-    "title": "VoiceStudio",
+    "title": "Tatva Voice Studio",
     "checking": "Checking environment…",
     "downloading_uv": "Downloading uv (Python package manager)…",
     "creating_venv": "Creating Python virtual environment…",

@@ -360,7 +360,7 @@
     "reduce_motion_desc": "Detiene las animaciones de fondo y las transiciones. Tu ajuste del sistema se respeta por sí solo; esto se suma."
   },
   "bootstrap": {
-    "title": "VoiceStudio",
+    "title": "Tatva Voice Studio",
     "checking": "Comprobando el entorno…",
     "downloading_uv": "Descargando uv (gestor de paquetes de Python)…",
     "creating_venv": "Creando entorno virtual de Python…",

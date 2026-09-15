@@ -91,9 +91,9 @@ function resolveOnRoot(token, theme = null) {
 }
 
 describe('theme cascade on documentElement (:root) — per-theme chrome recoloring', () => {
-  it('sanity: default (no data-theme) chrome resolves to the Gruvbox defaults', () => {
-    expect(resolveOnRoot('--chrome-bg')).toBe('#0f1011');
-    expect(resolveOnRoot('--chrome-fg')).toBe('#d5c4a1');
+  it('sanity: default (no data-theme) chrome resolves to the Tatva defaults', () => {
+    expect(resolveOnRoot('--chrome-bg')).toBe('#1a1a2e');
+    expect(resolveOnRoot('--chrome-fg')).toBe('#f8fafc');
   });
 
   // Expected per-theme chrome backgrounds, straight from the [data-theme] blocks.

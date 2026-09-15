@@ -360,7 +360,7 @@
     "reduce_motion_desc": "Menghentikan animasi latar dan transisi. Pengaturan sistem Anda tetap berlaku sendiri; ini menambahnya."
   },
   "bootstrap": {
-    "title": "VoiceStudio",
+    "title": "Tatva Voice Studio",
     "checking": "Memeriksa lingkungan…",
     "downloading_uv": "Mengunduh uv (pengelola paket Python)…",
     "creating_venv": "Membuat lingkungan virtual Python…",

@@ -360,7 +360,7 @@
     "reduce_motion_desc": "停止背景動畫與轉場效果。系統設定本身仍然生效，此項在其基礎上疊加。"
   },
   "bootstrap": {
-    "title": "VoiceStudio",
+    "title": "Tatva Voice Studio",
     "checking": "正在檢查環境…",
     "downloading_uv": "正在下載 uv（Python 包管理器）…",
     "creating_venv": "正在建立 Python 虛擬環境…",

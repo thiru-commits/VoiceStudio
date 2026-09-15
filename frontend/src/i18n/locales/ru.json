@@ -360,7 +360,7 @@
     "reduce_motion_desc": "Останавливает фоновые анимации и переходы. Системная настройка действует сама по себе; эта добавляется к ней."
   },
   "bootstrap": {
-    "title": "VoiceStudio",
+    "title": "Tatva Voice Studio",
     "checking": "Проверка окружения…",
     "downloading_uv": "Загрузка uv (пакетного менеджера Python)…",
     "creating_venv": "Создание виртуального окружения Python…",

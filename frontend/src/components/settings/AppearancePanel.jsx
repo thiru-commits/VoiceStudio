@@ -19,7 +19,7 @@ const THEMES = [
     defaultLabel: 'System Auto',
     dot: 'linear-gradient(135deg, #fdf6e3 50%, #1d2021 50%)',
   },
-  { id: 'gruvbox', label: 'Gruvbox', dot: '#d3869b' },
+  { id: 'gruvbox', label: 'Tatva', dot: '#1fb8ff' },
   { id: 'midnight', label: 'Midnight', dot: '#8b5cf6' },
   { id: 'nord', label: 'Nord', dot: '#88c0d0' },
   { id: 'solarized', label: 'Solarized', dot: '#268bd2' },

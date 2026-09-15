@@ -360,7 +360,7 @@
     "reduce_motion_desc": "يوقف الرسوم المتحركة في الخلفية والانتقالات. إعداد النظام يظل ساريًا بذاته؛ وهذا يضاف إليه."
   },
   "bootstrap": {
-    "title": "VoiceStudio",
+    "title": "Tatva Voice Studio",
     "checking": "جاري التحقق من البيئة…",
     "downloading_uv": "جاري تنزيل uv (مدير حزم بايثون)…",
     "creating_venv": "جاري إنشاء بيئة بايثون الافتراضية…",

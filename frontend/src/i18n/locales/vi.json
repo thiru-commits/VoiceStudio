@@ -360,7 +360,7 @@
     "reduce_motion_desc": "Dừng hoạt ảnh nền và hiệu ứng chuyển tiếp. Cài đặt hệ thống vẫn có hiệu lực riêng; mục này bổ sung thêm."
   },
   "bootstrap": {
-    "title": "VoiceStudio",
+    "title": "Tatva Voice Studio",
     "checking": "Đang kiểm tra môi trường…",
     "downloading_uv": "Đang tải xuống uv (trình quản lý gói Python)…",
     "creating_venv": "Đang tạo môi trường ảo Python…",

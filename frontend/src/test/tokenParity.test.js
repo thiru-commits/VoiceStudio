@@ -80,7 +80,7 @@ const overlap = themeTargets.filter((k) => k in root);
 describe('design-token parity: @theme vs token :root (consolidated in index.css)', () => {
   it('parses real tokens from both sources (sanity)', () => {
     // @theme owns the color/radius/font scale.
-    expect(theme['--color-fg']).toBe('#ebdbb2');
+    expect(theme['--color-fg']).toBe('#f8fafc');
     expect(theme['--radius-md']).toBe('4px');
     expect(theme['--font-sans']).toContain('Inter');
     // tokens.css still owns its non-overlapping tokens.

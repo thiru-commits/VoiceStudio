@@ -145,7 +145,7 @@
   /* ── Focus ring (unified) ──────────────────────────────────────── */
   --focus-ring:
     0 0 0 2px var(--color-bg),
-    0 0 0 4px rgba(211, 134, 155, 0.45);
+    0 0 0 4px rgba(31, 184, 255, 0.45);
 
   /* ── Glass effects ──────────────────────────────────────────────── */
   --glass-blur-sm: blur(6px);
@@ -185,12 +185,12 @@
 /* ── Map design tokens → Tailwind v4 theme ──────────────────────────── */
 @theme {
   /* Colors — semantic */
-  --color-fg:            #ebdbb2;
+  --color-fg:            #f8fafc;
   --color-fg-muted:      #a89984;
   --color-fg-subtle:     #7c6f64;
   --color-fg-inverse:    #1d2021;
 
-  --color-bg:            #1d2021;
+  --color-bg:            #1a1a2e;
   --color-bg-elev-1:     rgba(50, 48, 47, 0.85);
   --color-bg-elev-2:     rgba(0, 0, 0, 0.30);
   --color-bg-elev-3:     rgba(0, 0, 0, 0.18);
@@ -199,18 +199,18 @@
   --color-border-strong: rgba(255, 255, 255, 0.15);
   --color-border-warm:   rgba(243, 165, 182, 0.08);
 
-  --color-brand:         #d3869b;
-  --color-brand-hover:   #b16286;
-  --color-brand-glow:    rgba(211, 134, 155, 0.4);
+  --color-brand:         #1fb8ff;
+  --color-brand-hover:   #0077c2;
+  --color-brand-glow:    rgba(31, 184, 255, 0.4);
 
-  --color-accent:        #fabd2f;
+  --color-accent:        #f7941d;
   --color-success:       #8ec07c;
   --color-warn:          #fe8019;
   --color-danger:        #fb4934;
   --color-info:          #83a598;
 
-  --color-chrome-bg:     #0f1011;
-  --color-chrome-fg:     #d5c4a1;
+  --color-chrome-bg:     #1a1a2e;
+  --color-chrome-fg:     #f8fafc;
 
   /* Radius */
   --radius-xs:  2px;
@@ -288,22 +288,22 @@
    / Inter are no longer referenced by any rule. */
 
 :root {
-  /* Default theme is Gruvbox Dark (--bg #1d2021 / --chrome-bg #0f1011).
+  /* Default theme uses the Tatva palette (compatibility id: gruvbox).
      Declaring `color-scheme: dark` (NOT the same as the prefers-color-scheme
      media query below) makes UA-rendered form chrome — native <select> option
      popups, scrollbars, autofill, spin-buttons — render in the dark scheme so
      they match the app instead of defaulting to the OS light scheme. Every
      [data-theme] block re-asserts the scheme matching its own bg lightness. */
   color-scheme: dark;
-  --primary: #d3869b;
-  --primary-hover: #b16286;
-  --accent: #fabd2f;
-  --bg: #1d2021;
+  --primary: #1fb8ff;
+  --primary-hover: #0077c2;
+  --accent: #f7941d;
+  --bg: #1a1a2e;
   --glass-bg: rgba(50, 48, 47, 0.85);
   --glass-border: rgba(235, 219, 178, 0.08);
   --glass-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4);
   --blur: blur(16px) saturate(140%);
-  --text-primary: #ebdbb2;
+  --text-primary: #f8fafc;
   --text-secondary: #a89984;
   --radius: 6px;
   --gap: 6px;
@@ -315,10 +315,10 @@
      same tight dark-chrome look reference these (Header topbar now,
      future: Sidebar edges, Settings tab bar, NavRail). Keeping values
      in one place means style tweaks flow everywhere in sync. */
-  --chrome-bg:            #0f1011;
+  --chrome-bg:            #1a1a2e;
   --chrome-border:        rgba(255, 255, 255, 0.08);
   --chrome-border-strong: rgba(255, 255, 255, 0.12);
-  --chrome-fg:            #d5c4a1;
+  --chrome-fg:            #f8fafc;
   --chrome-fg-muted:      #a89984;
   --chrome-fg-dim:        #7c6f64;
   /* Accent family aliases the THEMED brand token (--color-brand, re-declared per

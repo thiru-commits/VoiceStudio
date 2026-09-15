@@ -360,7 +360,7 @@
     "reduce_motion_desc": "Arka plan animasyonlarını ve geçişleri durdurur. Sistem ayarınız kendi başına geçerlidir; bu ona eklenir."
   },
   "bootstrap": {
-    "title": "VoiceStudio",
+    "title": "Tatva Voice Studio",
     "checking": "Ortam kontrol ediliyor…",
     "downloading_uv": "uv (Python paket yöneticisi) indiriliyor…",
     "creating_venv": "Python sanal ortamı oluşturuluyor…",

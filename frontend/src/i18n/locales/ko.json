@@ -582,7 +582,7 @@
     "reduce_motion_desc": "배경 애니메이션과 전환을 중지합니다. 시스템 설정은 그대로 적용되며, 이 옵션은 거기에 더해집니다."
   },
   "bootstrap": {
-    "title": "VoiceStudio",
+    "title": "Tatva Voice Studio",
     "checking": "환경 확인 중…",
     "downloading_uv": "uv(Python 패키지 관리자) 다운로드 중…",
     "creating_venv": "Python 가상 환경 생성 중…",

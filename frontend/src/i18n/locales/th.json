@@ -360,7 +360,7 @@
     "reduce_motion_desc": "หยุดแอนิเมชันพื้นหลังและทรานซิชัน การตั้งค่าระบบยังมีผลด้วยตัวเอง ส่วนนี้เพิ่มเข้าไป"
   },
   "bootstrap": {
-    "title": "VoiceStudio",
+    "title": "Tatva Voice Studio",
     "checking": "กำลังตรวจสอบระบบ…",
     "downloading_uv": "กำลังดาวน์โหลด uv (ตัวจัดการแพ็กเกจ Python)…",
     "creating_venv": "กำลังสร้างจำลองสภาพแวดล้อม Python…",

@@ -201,8 +201,8 @@ def test_the_public_env_var_prefix_is_unchanged(env_var):
 
 def test_the_product_name_is_the_new_one():
     conf = json.loads(_read("frontend/src-tauri/tauri.conf.json"))
-    assert conf["productName"] == "VoiceStudio"
-    assert conf["app"]["windows"][0]["title"] == "VoiceStudio"
+    assert conf["productName"] == "Tatva Voice Studio"
+    assert conf["app"]["windows"][0]["title"] == "Tatva Voice Studio"
 
 
 def test_the_release_artifact_patterns_follow_the_product_name():

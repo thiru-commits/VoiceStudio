@@ -2016,7 +2016,7 @@
     "dictation_lede_hotkey_only": "在桌面任意位置按住上方快捷键说话，松开后文字会输入到当前聚焦的应用中。现在按一下即可验证是否生效。"
   },
   "bootstrap": {
-    "title": "VoiceStudio",
+    "title": "Tatva Voice Studio",
     "checking": "正在检查环境…",
     "downloading_uv": "正在下载 uv（Python 包管理器）…",
     "creating_venv": "正在创建 Python 虚拟环境…",
