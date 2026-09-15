@@ -90,7 +90,7 @@ function supervisorHarness(overrides = {}) {
 test('uvicorn runs directly because the wrapper owns source reloads', () => {
   assert.equal(
     ['uv', ...UVICORN_ARGS].join(' '),
-    'uv run uvicorn main:app --app-dir backend --host 0.0.0.0 --port 3900',
+    'uv run uvicorn main:app --app-dir backend --host 127.0.0.1 --port 3900',
   );
   assert.equal(UVICORN_ARGS.includes('--reload'), false);
 });

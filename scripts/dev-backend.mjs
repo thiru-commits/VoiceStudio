@@ -37,7 +37,7 @@ export const UVICORN_ARGS = [
   "--app-dir",
   "backend",
   "--host",
-  "0.0.0.0",
+  "127.0.0.1",
   "--port",
   "3900",
 ];
