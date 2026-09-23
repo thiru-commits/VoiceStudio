@@ -226,7 +226,6 @@ export default function Launchpad({
             <p className="m-0 mt-[14px] text-[color:var(--chrome-fg-muted)] text-[0.8rem] @max-[900px]/launchpad:text-[0.82rem] @max-[640px]/launchpad:text-[0.76rem] [font-family:var(--font-sans)] font-normal max-w-[540px] @max-[640px]/launchpad:max-w-full [line-height:1.65]">
               <Trans
                 i18nKey="launchpad.hero_desc"
-                values={{ count: 646 }}
                 components={{
                   1: (
                     <span className="text-[color:var(--chrome-accent)] [font-family:var(--chrome-font-mono)] [font-variant-numeric:tabular-nums] text-[0.76rem]" />

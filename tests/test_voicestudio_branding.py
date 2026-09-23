@@ -36,7 +36,7 @@ def test_current_version_is_in_lockstep_everywhere() -> None:
         assert match and match.group(1) == CURRENT_VERSION, path
 
 
-def test_visible_brand_surfaces_say_voicestudio() -> None:
+def test_visible_brand_surfaces_say_tatva_voice_studio() -> None:
     visible_files = (
         "frontend/src-tauri/Info.plist",
         "frontend/src-tauri/appimage/AppRun",
@@ -45,7 +45,7 @@ def test_visible_brand_surfaces_say_voicestudio() -> None:
     )
     for path in visible_files:
         text = (ROOT / path).read_text()
-        assert "VoiceStudio" in text, path
+        assert "Tatva Voice Studio" in text, path
         assert "OmniVoice needs" not in text, path
         assert "OmniVoice may" not in text, path
         assert "OmniVoice Gallery" not in text, path

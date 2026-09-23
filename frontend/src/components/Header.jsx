@@ -11,7 +11,6 @@ import {
   Wand2,
   Film,
   FolderOpen,
-  RefreshCw,
   Settings2,
   ChevronRight,
   ChevronDown,
@@ -31,7 +30,6 @@ import TitleTabs from './TitleTabs';
 import VoiceStudioMark from './brand/VoiceStudioMark';
 import { useAppStore } from '../store';
 import { useSysinfo, useEngines } from '../api/hooks';
-import { reloadAfterApplicationPersistence } from '../utils/persistenceLifecycle';
 
 const VIEW_META = {
   launchpad: {
@@ -339,18 +337,6 @@ export default function Header({
               </>
             ) : null}
           </div>
-          {import.meta.env.DEV && (
-            <Button
-              variant="ghost"
-              size="sm"
-              title={t('common.reload')}
-              onClick={() => void reloadAfterApplicationPersistence()}
-              leading={<RefreshCw size={9} />}
-              className="shrink-0"
-            >
-              {t('common.reload')}
-            </Button>
-          )}
         </div>
       )}
 
@@ -365,7 +351,7 @@ export default function Header({
             className="size-7 overflow-visible text-[var(--chrome-accent)]"
           />
           <span className="text-[0.92rem] font-semibold text-[var(--chrome-fg)] tracking-[0.02em] [font-family:var(--font-sans)] not-italic">
-            Voice<span className="text-[var(--chrome-accent)]">Studio</span>
+            Tatva Voice Studio
           </span>
         </div>
       )}

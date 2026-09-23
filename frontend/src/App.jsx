@@ -31,7 +31,6 @@ const SetupWizard = lazy(() => import('./pages/SetupWizard'));
 const UiScaleSetup = lazy(() => import('./components/UiScaleSetup'));
 const KeyboardCheatsheet = lazy(() => import('./components/KeyboardCheatsheet'));
 const VoicePreview = lazy(() => import('./components/VoicePreview'));
-const LogsFooter = lazy(() => import('./components/LogsFooter'));
 const ProjectsPage = lazy(() => import('./pages/Projects'));
 const VoiceGallery = lazy(() => import('./pages/VoiceGallery'));
 const SupportPage = lazy(() => import('./pages/SupportPage'));
@@ -1909,11 +1908,6 @@ function App() {
           for every playBlobAudio playback that has no on-screen player. As a
           real grid row it can never overlap row-2 content or the footer. */}
       <GlobalAudioPlayer />
-
-      {/* ═══ BOTTOM LOGS PANEL (VSCode-style) ═══ */}
-      <Suspense fallback={null}>
-        <LogsFooter />
-      </Suspense>
     </div>
   );
 }

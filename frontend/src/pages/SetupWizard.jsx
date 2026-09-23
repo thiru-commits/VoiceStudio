@@ -303,7 +303,7 @@ export default function SetupWizard({ onReady }) {
   const STEP_LABELS = {
     system: t('setup.system_check'),
     models: t('firstrun.stage_models', 'Models & engines'),
-    consent: t('consent.step_label', 'Improve VoiceStudio'),
+    consent: t('consent.step_label', 'Improve Tatva Voice Studio'),
     dictation: t('setup.dictation_step_label', 'Dictation'),
   };
 

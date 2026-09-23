@@ -1,6 +1,6 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "VoiceStudio (Current User)",
+  "productName": "Tatva Voice Studio (Current User)",
   "build": {
     "beforeBuildCommand": null
   },

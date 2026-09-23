@@ -1338,7 +1338,7 @@ pub fn run() {
                 let dictate_i = MenuItemBuilder::new(format!("Start Dictation  {shortcut_hint}"))
                     .id("dictate")
                     .build(app)?;
-                let open_studio_i = MenuItemBuilder::new("Open VoiceStudio")
+                let open_studio_i = MenuItemBuilder::new("Open Tatva Voice Studio")
                     .id("open_studio")
                     .build(app)?;
                 let quit_i = MenuItemBuilder::new("Quit Dictation")
@@ -1353,7 +1353,7 @@ pub fn run() {
                     .build()?
             } else {
                 // Studio mode: full tray
-                let show_i = MenuItemBuilder::new("Show VoiceStudio")
+                let show_i = MenuItemBuilder::new("Show Tatva Voice Studio")
                     .id("show")
                     .build(app)?;
                 let shortcut_hint = app.state::<DictationShortcutManager>().info().display;
@@ -1366,7 +1366,7 @@ pub fn run() {
                 let settings_i = MenuItemBuilder::new("Settings")
                     .id("settings")
                     .build(app)?;
-                let quit_i = MenuItemBuilder::new("Quit VoiceStudio")
+                let quit_i = MenuItemBuilder::new("Quit Tatva Voice Studio")
                     .id("quit")
                     .build(app)?;
                 MenuBuilder::new(app)
@@ -1399,7 +1399,11 @@ pub fn run() {
             let tray = TrayIconBuilder::new()
                 .icon(app.default_window_icon().unwrap().clone())
                 .menu(&tray_menu)
-                .tooltip(if pill_mode_tray { "VoiceStudio Dictation" } else { "VoiceStudio" })
+                .tooltip(if pill_mode_tray {
+                    "Tatva Voice Studio Dictation"
+                } else {
+                    "Tatva Voice Studio"
+                })
                 .on_tray_icon_event(|tray, event| {
                     if matches!(
                         event,

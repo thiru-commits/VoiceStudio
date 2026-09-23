@@ -43,7 +43,7 @@ describe('OpenApiPanel', () => {
 
     render(<OpenApiPanel />);
 
-    expect(screen.getByRole('heading', { name: 'VoiceStudio API' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Tatva Voice Studio API' })).toBeInTheDocument();
     expect(screen.queryByText('OpenAPI Reference')).not.toBeInTheDocument();
 
     // The spec is fetched from the backend root route (not under /api).

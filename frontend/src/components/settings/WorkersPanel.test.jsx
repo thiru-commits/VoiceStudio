@@ -87,7 +87,9 @@ describe('WorkersPanel', () => {
     );
     renderPanel();
 
-    expect(await screen.findByRole('alert')).toHaveTextContent(/another VoiceStudio instance/i);
+    expect(await screen.findByRole('alert')).toHaveTextContent(
+      /another Tatva Voice Studio instance/i,
+    );
     expect(screen.queryByText(/Generate token/i)).not.toBeInTheDocument();
   });
 
